@@ -9,6 +9,36 @@ This is basically a `Vagrant init` on setroids
 Add multiple built-in provisioning options to the basic Vagrantfile through an interactive Yeoman-based cli wizard
 
 
+### Example Usage:
+  
+  ```
+  yo vagrant
+  
+  Choose OS:
+  (1) Ubuntu 12
+  (2) Ubuntu 13
+  (3) CentOS 6
+  ...
+  
+  Choose Servlet Container:
+  (1) Tomcat 6
+  (2) Tomcat 7
+  (3) Jetty
+  (4) None
+  
+  Choose DB:
+  (1) MySQL
+  (2) MongoDB
+  (3) Elasticsearch
+  (4) Postgres
+  ....
+  
+  Do you want another DB? y/N
+  
+  .....
+  ets.
+  ```
+
 ## Getting Started
 
 ### What is Yeoman?
@@ -44,35 +74,6 @@ Yeoman has a heart of gold. He's a person with feelings and opinions, but he's v
 
 If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
 
-### Example Usage:
-  
-  ```
-  yo vagrant
-  
-  Choose OS:
-  (1) Ubuntu 12
-  (2) Ubuntu 13
-  (3) CentOS 6
-  ...
-  
-  Choose Servlet Container:
-  (1) Tomcat 6
-  (2) Tomcat 7
-  (3) Jetty
-  (4) None
-  
-  Choose DB:
-  (1) MySQL
-  (2) MongoDB
-  (3) Elasticsearch
-  (4) Postgres
-  ....
-  
-  Do you want another DB? y/N
-  
-  .....
-  ets.
-  ```
 
 
 ## License
